@@ -1,0 +1,15 @@
+{
+    "name": "itcg/web",
+    "description": "Pagina web del ITCG",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Model\\": "./models",
+            "MVC\\": "./",
+            "Controllers\\": "./controllers"
+        }
+    }
+}
